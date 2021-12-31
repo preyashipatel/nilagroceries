@@ -1,0 +1,7 @@
+[30-Dec-2021 07:18:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Magento\Framework\App\ResourceConnection\Proxy does not exist in /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/Code/Reader/ClassReader.php:28
+Stack trace:
+#0 /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/Code/Reader/ClassReader.php(28): ReflectionClass->__construct('Magento\\Framewo...')
+#1 /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor('Magento\\Framewo...')
+#2 /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters('Magento\\Framewo...')
+#3 /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#4 /home/magentofmv/public_html/nil in /home/magentofmv/public_html/nilagroceries-new/vendor/magento/framework/Code/Reader/ClassReader.php on line 28
