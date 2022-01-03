@@ -31,8 +31,8 @@ $cart_design = $_portohelper->getConfig('porto_design/header/header_minicart_des
        data-bind="scope: 'minicart_content'">
         <span class="cart-subtotal">
           <span class="cart-price">
-            <span class="amount" data-bind="html: getCartParam('subtotal_excl_tax')">
-              <!-- ko if: !getCartParam('subtotal_excl_tax') -->
+            <span class="amount" data-bind="html: getCartParam('subtotal_incl_tax')">
+              <!-- ko if: !getCartParam('subtotal_incl_tax') -->
                   <!-- ko i18n: '€ 0.00' --><!-- /ko -->
               <!-- /ko -->
             </span>
